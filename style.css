@@ -1,0 +1,86 @@
+:root {
+  --color-primary: #000;
+  /* --color-primary: #283747; */
+}
+
+@media screen and (min-height: 800px) {
+  .body {
+    height: 100vh;
+    max-height: 100vh;
+  }
+}
+
+.body {
+  color: var(--color-primary);
+}
+
+.sub-container {
+  max-width: 600px;
+}
+
+.links-button {
+  border-width: 1px;
+  border-color: var(--color-primary);
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.links-button-selected {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.profile-img {
+  width: 200px;
+}
+
+.profile-link {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.profile-icon {
+  height: 48px;
+  width: 48px;
+}
+
+.header {
+  font-size: 28px;
+}
