@@ -13,7 +13,7 @@ var LINKS = {
   ],
   [LINK_TYPES.code]: [
     { link: "https://github.com/shreyansh-g24", iconPath: "./assets/icons/icons8-github-48x48.svg" },
-    { link: "https://gitlab.com/shreyansh-gupta", iconPath: "./assets/icons/icons8-gitlab-48x48.svg" },
+    // { link: "https://gitlab.com/shreyansh-gupta", iconPath: "./assets/icons/icons8-gitlab-48x48.svg" },
     { link: "https://www.hackerrank.com/profile/shreyanshgupta0", iconPath: "./assets/icons/hackerrank-4.svg" },
     { link: "https://leetcode.com/u/shreyansh_xyz/", iconPath: "./assets/icons/leetcode-svgrepo-com.svg" },
     { link: "https://www.codewars.com/users/shreyanshgupta22", iconPath: "./assets/icons/icons8-codewars-48x48.svg" },
