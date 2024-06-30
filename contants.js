@@ -9,7 +9,7 @@ var LINK_TYPES = {
 var LINKS = {
   [LINK_TYPES.resume]: [
     { link: "https://www.linkedin.com/in/shreyansh-gupta0/", iconPath: "./assets/icons/icons8-linkedin-48x48.svg" },
-    { link: "/#resume", iconPath: "./assets/icons/iconmonstr-cv-1.svg" }
+    { link: "mailto:hello@shreyansh.simplelogin.com?subject=Requesting%20a%20copy%20of%20resume&body=%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%0AIf%20you%20want%20to%20look%20at%20the%20experience.%20Please%20check%20out%20my%20LinkedIn.%0A%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%0A%0AHi%2C%0A%0APlease%20send%20me%20a%20copy%20of%20your%20resume.%0A%0AName%20-%0ACompany%20-%0A", iconPath: "./assets/icons/iconmonstr-cv-1.svg" }
   ],
   [LINK_TYPES.code]: [
     { link: "https://github.com/shreyansh-g24", iconPath: "./assets/icons/icons8-github-48x48.svg" },
